@@ -1,0 +1,151 @@
+* {
+  margin: 10;
+  padding: 0;
+}
+
+.home {
+  background-image: url(main.jpeg);
+  background-size: 100% 856px;
+  height: 856px;
+  background-repeat: no-repeat;
+
+}
+
+.list {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  position: relative;
+  margin-top: 0px;
+
+  right: -650px;
+  margin: 20px;
+  line-height: 100px;
+  display: inline;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.site {
+  position: relative;
+  left: 90px;
+
+}
+
+.salute {
+  background-color: white;
+  height: 300px;
+  width: 80%;
+  margin-left: 165px;
+  border-radius: 20px;
+  margin-top: 42%;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.salute .co {
+  color: rgb(73, 10, 247);
+  font-size: 70px;
+}
+
+.salute .good {
+  margin: 25px;
+
+}
+
+.salute .col {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.location {
+  border: 0.5px solid;
+  border-radius: 50px 50px 50px 50px;
+  width: 90%;
+  height: 70px;
+  margin-left: 50px;
+  margin-top: 70px;
+  display: flex;
+
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+
+.item {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  margin-top: -10px;
+  line-height: 20px;
+
+}
+
+/* .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+  } */
+
+
+
+.item-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.item-content {
+  color: #666;
+}
+.middle{
+  width: 100%;
+  height: 500px;
+  padding: 96px 0px 112px 0px;
+}
+.middle h1{
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 200px;
+  
+}
+.partner{
+  height: 300px;
+  padding: 0px 64px 0px 64px;
+ background-image: url(Our\ partners.png);
+}
+.book{
+  height: 1000px;
+  padding: 64px 160px 104px 160px;
+ background-image:url(Top\ book\ now.png);
+}
+.banner{
+  height: 720px;
+  background-image: url(Banner01.png);
+}
+.feature{
+background-image: url(Feature\ News.png);
+  height: 800px;
+}
+.test{
+  height: 500px;
+  width: 100%;
+ 
+  background-image: url(Testimonial01.png);
+}
+.subscribe{
+  height: 430px;
+  background-image: url(Subscrible.png);
+}
+.footer{
+  background-image: url(Footer.png);
+  height: 430px;
+}
